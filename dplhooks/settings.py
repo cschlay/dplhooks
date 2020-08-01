@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
-
+import json
 import os
 from dotenv import load_dotenv
 
@@ -30,7 +30,8 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
-    'dplhooks.integrations.gitlab'
+    'rest_framework',
+    'dplhooks.deploys'
 ]
 
 MIDDLEWARE = [
@@ -65,3 +66,5 @@ DATABASES = {
 API_ACCESS_KEY = os.getenv('API_ACCESS_KEY', None)
 API_CLIENT_SECRET = os.getenv('API_CLIENT_SECRET', None)
 API_BEARER = f'Bearer {API_ACCESS_KEY}-{API_CLIENT_SECRET}'  # TODO: Hash it.
+
+IP_WHITELIST = json.loads(os.getenv('IP_WHITELIST', '[]'))
