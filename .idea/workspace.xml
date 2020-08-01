@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="60453982-131b-4098-a7af-5624aace6ad6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       <updated>1596264615920</updated>
       <workItem from="1596264649206" duration="35000" />
       <workItem from="1596265160674" duration="9832000" />
-      <workItem from="1596296661891" duration="5379000" />
+      <workItem from="1596296661891" duration="5551000" />
     </task>
     <task id="LOCAL−00001" summary="Initial">
       <created>1596266547449</created>
@@ -144,7 +143,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1596302357217</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Try cache pip">
+      <created>1596302811990</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1596302811990</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +172,8 @@
     <MESSAGE value="Remove gitlab integration" />
     <MESSAGE value="Clear workflow" />
     <MESSAGE value="Add configuration spec to README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add configuration spec to README.md" />
+    <MESSAGE value="Try cache pip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try cache pip" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596301763356">
@@ -210,9 +216,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596268067359" />
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596302373411">
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596302815973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596302373411" />
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596302815973" />
   </component>
 </project>
