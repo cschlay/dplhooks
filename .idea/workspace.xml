@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60453982-131b-4098-a7af-5624aace6ad6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dplhooks/deploys/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dplhooks/deploys/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dplhooks/deploys/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/integrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/integrations/gitlab/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/integrations/gitlab/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/integrations/gitlab/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/integrations/gitlab/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/integrations/gitlab/tests/test_cicd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/integrations/gitlab/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/integrations/gitlab/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/middleware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596264615920</updated>
       <workItem from="1596264649206" duration="35000" />
-      <workItem from="1596265160674" duration="8256000" />
+      <workItem from="1596265160674" duration="8447000" />
     </task>
     <task id="LOCAL−00001" summary="Initial">
       <created>1596266547449</created>
@@ -116,7 +99,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1596270412706</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Remove gitlab integration">
+      <created>1596273445272</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1596273445272</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +114,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Add authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add authentication" />
+    <MESSAGE value="Remove gitlab integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove gitlab integration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="661" y="298" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596270754073">
@@ -140,25 +130,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="196" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596265209828" />
-    <state width="1865" height="266" key="GridCell.Tab.0.bottom" timestamp="1596273410214">
+    <state x="805" y="392" key="Github.ShareDialog" timestamp="1596273463197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596273410214" />
-    <state width="1865" height="266" key="GridCell.Tab.0.center" timestamp="1596273410213">
+    <state x="805" y="392" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596273463197" />
+    <state width="1865" height="266" key="GridCell.Tab.0.bottom" timestamp="1596273427804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596273410213" />
-    <state width="1865" height="266" key="GridCell.Tab.0.left" timestamp="1596273410213">
+    <state width="1865" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596273427804" />
+    <state width="1865" height="266" key="GridCell.Tab.0.center" timestamp="1596273427804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596273410213" />
-    <state width="1865" height="266" key="GridCell.Tab.0.right" timestamp="1596273410214">
+    <state width="1865" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596273427804" />
+    <state width="1865" height="266" key="GridCell.Tab.0.left" timestamp="1596273427804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596273410214" />
+    <state width="1865" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596273427804" />
+    <state width="1865" height="266" key="GridCell.Tab.0.right" timestamp="1596273427804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596273427804" />
     <state x="336" y="77" key="SettingsEditor" timestamp="1596268067359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596268067359" />
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596273451277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596273451277" />
   </component>
 </project>
