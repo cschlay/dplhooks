@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="60453982-131b-4098-a7af-5624aace6ad6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dplhooks/deploys/essentials/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dplhooks/deploys/essentials/conf_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dplhooks/deploys/essentials/deployer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dplhooks/deploys/tests/test_conf_parse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/.conf-examples/projects.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/examples/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +106,7 @@
       <updated>1596264615920</updated>
       <workItem from="1596264649206" duration="35000" />
       <workItem from="1596265160674" duration="9832000" />
-      <workItem from="1596296661891" duration="5014000" />
+      <workItem from="1596296661891" duration="5379000" />
     </task>
     <task id="LOCAL−00001" summary="Initial">
       <created>1596266547449</created>
@@ -127,18 +138,36 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1596273673792</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Add configuration spec to README.md">
+      <created>1596302357217</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1596302357217</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Add authentication" />
     <MESSAGE value="Remove gitlab integration" />
     <MESSAGE value="Clear workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clear workflow" />
+    <MESSAGE value="Add configuration spec to README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add configuration spec to README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596301763356">
@@ -181,9 +210,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596268067359" />
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596273677240">
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596302373411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596273677240" />
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596302373411" />
   </component>
 </project>
