@@ -1,3 +1,10 @@
-from django.shortcuts import render
+from django.http import JsonResponse
 
-# Create your views here.
+from dplhooks.views import APIView
+
+
+class DeployWebhook(APIView):
+    def get(self, request, *args, **kwargs):
+        return JsonResponse({
+            'ok': 's'
+        }, status=200)

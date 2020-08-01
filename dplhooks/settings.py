@@ -12,11 +12,11 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 from dotenv import load_dotenv
+
 load_dotenv()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -38,9 +38,11 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'dplhooks.middleware.AuthenticationMiddleware',
 ]
 
 ROOT_URLCONF = 'dplhooks.urls'
+APPEND_SLASH = False
 
 WSGI_APPLICATION = 'dplhooks.wsgi.application'
 
@@ -52,4 +54,14 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = False
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3',
+    }
+}
+
 # Credentials
+API_ACCESS_KEY = os.getenv('API_ACCESS_KEY', None)
+API_CLIENT_SECRET = os.getenv('API_CLIENT_SECRET', None)
+API_BEARER = f'Bearer {API_ACCESS_KEY}-{API_CLIENT_SECRET}'  # TODO: Hash it.
