@@ -20,3 +20,29 @@ DEBUG=
 
 They are located at `.conf` both in production and development.
 
+See example in `examples/.conf-examples`
+
+### .conf/projects.yaml
+
+Here is syntax reference:
+
+```yaml
+version: "1"
+
+projects:
+    <project_name>:
+      repository: <git_repository>.git
+      deploy_token: <a long string> 
+      docker_image: <docker_image>  # not supported yet
+      hosts:
+        - <domain_1>
+        - <domain_2>
+      docker_compose:
+         - <filename_1>:
+            # the will be set as environment variables to substitute values in docker-compose
+            substitute:
+              <VARIABLE_1>: <value_1>
+      port: <port_number> # Must be unique.
+```
+
+To deploy, do `curl -X POST /deploy/ -d '{"token":"<deploy_token>", "project":"<project_name>"}' -H "Content-Type: application/json"`

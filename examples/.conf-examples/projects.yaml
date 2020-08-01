@@ -1,0 +1,17 @@
+version: "1"
+
+workdir: "~/projects"
+
+domain: dplhooks.laych.dev
+
+projects:
+  dplhooks:
+    repository: "https://github.com/cschlay/dplhooks.git"
+    hosts:
+      - laych.dev
+      - www.laych.dev
+    docker_compose:
+      - file: docker-compose.production.yaml
+        substitute:
+          PORT: 8001
+    port: 8001
