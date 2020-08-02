@@ -20,16 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60453982-131b-4098-a7af-5624aace6ad6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dplhooks/deploys/tests/test_deploy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/.conf-examples/envfiles/.env.testing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dplhooks/deploys/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/deploys/essentials/conf_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/essentials/conf_parser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dplhooks/deploys/essentials/deployer.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/essentials/deployer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/middleware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/.conf-examples/projects.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/.conf-examples/projects.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplhooks/deploys/tests/test_deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/tests/test_deploy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplhooks/deploys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplhooks/deploys/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +117,7 @@
       <workItem from="1596296661891" duration="5851000" />
       <workItem from="1596356666400" duration="2916000" />
       <workItem from="1596363650474" duration="6500000" />
-      <workItem from="1596370167378" duration="799000" />
+      <workItem from="1596370167378" duration="1640000" />
     </task>
     <task id="LOCAL−00001" summary="Initial">
       <created>1596266547449</created>
@@ -225,7 +221,13 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1596366084967</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="Add docker deployment">
+      <created>1596370993100</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1596370993100</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +261,8 @@
     <MESSAGE value="Add logging" />
     <MESSAGE value="Update readme" />
     <MESSAGE value="Add missing docker configuration for non-root users" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add missing docker configuration for non-root users" />
+    <MESSAGE value="Add docker deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add docker deployment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596301763356">
