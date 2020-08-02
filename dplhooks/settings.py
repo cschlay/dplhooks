@@ -67,4 +67,4 @@ API_ACCESS_KEY = os.getenv('API_ACCESS_KEY', None)
 API_CLIENT_SECRET = os.getenv('API_CLIENT_SECRET', None)
 API_BEARER = f'Bearer {API_ACCESS_KEY}-{API_CLIENT_SECRET}'  # TODO: Hash it.
 
-IP_WHITELIST = json.loads(os.getenv('IP_WHITELIST', '[]'))
+API_IP_WHITELIST = json.loads(os.getenv('IP_WHITELIST', '[]'))

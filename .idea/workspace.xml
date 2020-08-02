@@ -20,7 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60453982-131b-4098-a7af-5624aace6ad6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/files/.env-template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/files/dplhooks.service.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/files/nginx-template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/files/sudoers-template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/update.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplhooks/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/examples/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +63,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts/files" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chi-Hao Lay\Development\dplhooks\scripts\files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Chi-Hao Lay\Development\dplhooks\examples\.conf-examples" />
       <recent name="C:\Users\Chi-Hao Lay\Development\dplhooks\examples" />
@@ -105,7 +120,8 @@
       <updated>1596264615920</updated>
       <workItem from="1596264649206" duration="35000" />
       <workItem from="1596265160674" duration="9832000" />
-      <workItem from="1596296661891" duration="5551000" />
+      <workItem from="1596296661891" duration="5851000" />
+      <workItem from="1596356666400" duration="2428000" />
     </task>
     <task id="LOCAL−00001" summary="Initial">
       <created>1596266547449</created>
@@ -149,7 +165,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1596302811990</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Try cache pip">
+      <created>1596302876951</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1596302876951</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +187,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
@@ -216,9 +239,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596268067359" />
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596302815973">
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596302880338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596302815973" />
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596302880338" />
   </component>
 </project>
