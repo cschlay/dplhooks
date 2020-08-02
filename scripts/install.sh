@@ -36,6 +36,12 @@ echo "Installling Docker Compose..."
 curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 
+echo "Configuring Docker for non-root users..."
+# https://docs.docker.com/engine/install/linux-postinstall/
+groupadd docker
+usermod -aG docker $SUDO_USER
+newgrp docker
+
 echo "Installing dplhooks..."
 python3 -m venv venv
 source venv/bin/activate
