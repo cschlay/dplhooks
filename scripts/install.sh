@@ -15,6 +15,8 @@ echo "Installing python dependencies..."
 apt install python3-pip -y
 apt install python3-dev -y
 apt install python3-venv -y
+apt install python3-wheel -y
+pip3 install wheel
 
 echo "Installing Docker..."
 # https://docs.docker.com/engine/install/ubuntu/

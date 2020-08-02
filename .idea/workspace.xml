@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="60453982-131b-4098-a7af-5624aace6ad6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +111,8 @@
       <workItem from="1596264649206" duration="35000" />
       <workItem from="1596265160674" duration="9832000" />
       <workItem from="1596296661891" duration="5851000" />
-      <workItem from="1596356666400" duration="2907000" />
+      <workItem from="1596356666400" duration="2916000" />
+      <workItem from="1596363650474" duration="226000" />
     </task>
     <task id="LOCAL−00001" summary="Initial">
       <created>1596266547449</created>
@@ -168,7 +168,13 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1596359109581</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Fix errors in install script">
+      <created>1596359587864</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1596359587864</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +200,8 @@
     <MESSAGE value="Add configuration spec to README.md" />
     <MESSAGE value="Try cache pip" />
     <MESSAGE value="Add install script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add install script" />
+    <MESSAGE value="Fix errors in install script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix errors in install script" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596301763356">
@@ -237,9 +244,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596268067359" />
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596359115435">
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596363654476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596359115435" />
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596363654476" />
   </component>
 </project>
