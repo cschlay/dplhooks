@@ -56,6 +56,10 @@ projects:
       repository: <git_repository>.git
       deploy_token: <a long string> 
       docker_image: <docker_image>  # not supported yet
+      # Env files will be copied to root directory of a project.
+      # Location for these are .conf/envfiles/
+      envfiles:
+        - .<envfile_1>
       hosts:
         - <domain_1>
         - <domain_2>

@@ -16,3 +16,6 @@ class ConfigurationParser:
             if 'repository' not in project_conf:
                 raise KeyError('Missing project repository!')
         return conf
+
+    def get_project(self, project_name):
+        return self.projects['projects'][project_name]

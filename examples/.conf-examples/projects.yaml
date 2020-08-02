@@ -7,6 +7,7 @@ domain: dplhooks.laych.dev
 projects:
   dplhooks:
     repository: "https://github.com/cschlay/dplhooks.git"
+    deploy_token: "token"
     hosts:
       - laych.dev
       - www.laych.dev
@@ -14,4 +15,6 @@ projects:
       - file: docker-compose.production.yaml
         substitute:
           PORT: 8001
+    envfiles:
+      - .env.testing
     port: 8001

@@ -8,7 +8,7 @@ class AuthenticationMiddleware:
         self.get_response = get_response
 
     def __call__(self, request):
-        is_private = not request.path.startswith('/public')
-        if is_private and ('AUTHORIZATION' not in request.META or  request.META['AUTHORIZATION'] != settings.API_BEARER):
+        is_private = not request.path.startswith('/p')
+        if is_private and ('AUTHORIZATION' not in request.META or request.META['AUTHORIZATION'] != settings.API_BEARER):
             return JsonResponse(data={'details': 'Need authorization.'}, status=401)
         return self.get_response(request)
