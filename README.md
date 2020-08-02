@@ -19,10 +19,23 @@ sudo ./scripts/install.sh
 ### Environment Variables
 
 Put these to `.env` as `KEY=1sadsah`, without quotation marks.
+See `examples/.env.example`
 
 ```
 SECRET_KEY=
 DEBUG=
+HOST=
+API_IP_WHITELIST=[]
+API_ACCESS_KEY=
+API_CLIENT_SECRET
+```
+
+### Update
+
+```bash
+# If it was installed in home directory.
+cd ~/dplhooks
+sudo ./scripts/update.sh
 ```
 
 ## Configuration Files
@@ -54,4 +67,4 @@ projects:
       port: <port_number> # Must be unique.
 ```
 
-To deploy, do `curl -X POST /deploy/ -d '{"token":"<deploy_token>", "project":"<project_name>"}' -H "Content-Type: application/json"`
+To deploy a project, do `curl -X POST /deploy/ -d '{"token":"<deploy_token>", "project":"<project_name>"}' -H "Content-Type: application/json"`
