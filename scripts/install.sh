@@ -28,14 +28,14 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
 apt-key fingerprint 0EBFCD88
 add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 apt update
-apt install docker-ce docker-ce-cli containerd.io
+apt install docker-ce docker-ce-cli containerd.io -y
 
 echo "Installling Docker Compose..."
 curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 
 echo "Installing dplhooks..."
-python3 -m venv
+python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 python3 scripts/config.py

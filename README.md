@@ -7,7 +7,16 @@ The project does not take scaling in consideration.
 If have certain service has exceeded its limits, then it has outgrown its role and
 should be run on its own server or using some powerful container orchestration services such as Kubernetes.
 
-## Environment Variables
+## Installation
+
+```bash
+# Go to home directory
+git clone https://github.com/cschlay/dplhooks.git
+cd dplhooks
+sudo ./scripts/install.sh
+```
+
+### Environment Variables
 
 Put these to `.env` as `KEY=1sadsah`, without quotation marks.
 
