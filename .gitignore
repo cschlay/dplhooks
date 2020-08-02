@@ -140,3 +140,4 @@ cython_debug/
 # Project Specific
 .conf/
 .tmp/
+.logs/

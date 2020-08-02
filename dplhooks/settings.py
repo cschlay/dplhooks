@@ -62,6 +62,25 @@ DATABASES = {
     }
 }
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': '.logs/django.log',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+    },
+}
+
 # Credentials
 API_ACCESS_KEY = os.getenv('API_ACCESS_KEY', None)
 API_CLIENT_SECRET = os.getenv('API_CLIENT_SECRET', None)
