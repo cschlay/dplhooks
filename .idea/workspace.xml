@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60453982-131b-4098-a7af-5624aace6ad6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/deploys/essentials/deployer.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/essentials/deployer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/files/sudoers-template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/files/sudoers-template.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <workItem from="1596296661891" duration="5851000" />
       <workItem from="1596356666400" duration="2916000" />
       <workItem from="1596363650474" duration="6500000" />
-      <workItem from="1596370167378" duration="3285000" />
+      <workItem from="1596370167378" duration="3464000" />
     </task>
     <task id="LOCAL−00001" summary="Initial">
       <created>1596266547449</created>
@@ -231,7 +228,13 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1596371812498</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="Add nginx conf step to deployer.py">
+      <created>1596373552046</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1596373552046</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +270,8 @@
     <MESSAGE value="Add missing docker configuration for non-root users" />
     <MESSAGE value="Add docker deployment" />
     <MESSAGE value="Add deploy api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add deploy api" />
+    <MESSAGE value="Add nginx conf step to deployer.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add nginx conf step to deployer.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596301763356">

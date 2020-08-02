@@ -28,7 +28,6 @@ jobs:
           pip install -r requirements.txt
       - name: Run Tests
         run: |
-          mkdir .conf
           cp examples/.conf-examples/projects.yaml .conf/projects.yaml
           cp examples/.env.example .env
           python manage.py test
