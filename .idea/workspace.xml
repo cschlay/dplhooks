@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60453982-131b-4098-a7af-5624aace6ad6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dplhooks/deploys/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dplhooks/deploys/essentials/deployer.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/essentials/deployer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/deploys/tests/test_deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/tests/test_deploy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/deploys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplhooks/deploys/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dplhooks/deploys/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/files/sudoers-template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/files/sudoers-template.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <workItem from="1596296661891" duration="5851000" />
       <workItem from="1596356666400" duration="2916000" />
       <workItem from="1596363650474" duration="6500000" />
-      <workItem from="1596370167378" duration="1640000" />
+      <workItem from="1596370167378" duration="3285000" />
     </task>
     <task id="LOCAL−00001" summary="Initial">
       <created>1596266547449</created>
@@ -227,7 +225,13 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1596370993100</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="Add deploy api">
+      <created>1596371812498</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1596371812498</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +266,8 @@
     <MESSAGE value="Update readme" />
     <MESSAGE value="Add missing docker configuration for non-root users" />
     <MESSAGE value="Add docker deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add docker deployment" />
+    <MESSAGE value="Add deploy api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add deploy api" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596301763356">

@@ -60,15 +60,13 @@ projects:
       # Location for these are .conf/envfiles/
       envfiles:
         - .<envfile_1>
-      hosts:
-        - <domain_1>
-        - <domain_2>
+      host: <domain>
+      port: <port_number> # Must be unique.
       docker_compose:
          - <filename_1>:
             # the will be set as environment variables to substitute values in docker-compose
             substitute:
               <VARIABLE_1>: <value_1>
-      port: <port_number> # Must be unique.
 ```
 
 To deploy a project, do `curl -X POST /deploy/ -d '{"token":"<deploy_token>", "project":"<project_name>"}' -H "Content-Type: application/json"`

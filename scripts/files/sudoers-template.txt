@@ -1,1 +1,2 @@
 %{user} ALL=NOPASSWD: /bin/systemctl restart dplhooks
+%{user} ALL=NOPASSWD: /bin/systemctl restart nginx
