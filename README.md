@@ -63,10 +63,7 @@ projects:
       host: <domain>
       port: <port_number> # Must be unique.
       docker_compose:
-         - <filename_1>:
-            # the will be set as environment variables to substitute values in docker-compose
-            substitute:
-              <VARIABLE_1>: <value_1>
+         - <filename_1>
 ```
 
 To deploy a project, do `curl -X POST /deploy/ -d '{"token":"<deploy_token>", "project":"<project_name>"}' -H "Content-Type: application/json"`
