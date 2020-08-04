@@ -12,8 +12,27 @@
 </head>
 
 <body>
+<div class="content">
+  <nav>
+    <a href="/documentation">Documentation</a>
+  </nav>
+
   <h1>DplHooks</h1>
-  <p>Continuosly deliver Docker containers to virtual private servers with webhooks. You only need a properly configured .yaml file and applications.</p>
+  <p>Continuosly deliver Docker containers to virtual private servers with webhooks. You only need a properly configured
+    .yaml file and applications.</p>
+  <a href="https://github.com/cschlay/dplhooks">
+    <button>View at GitHub</button>
+  </a>
+
+  <h2>Installation</h2>
+  <p>
+    The install script installs Docker and configures Nginx with Let's encrypt!
+    Run the following inside SSH.
+  </p>
+  <pre><code>git clone https://github.com/cschlay/dplhooks.git
+cd dplhooks
+sudo ./scripts/install.sh</code></pre>
+</div>
 </body>
 
 </html>
